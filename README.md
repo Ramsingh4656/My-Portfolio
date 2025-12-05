@@ -114,9 +114,10 @@ http-server
 
 **Ram Singh**
 - FY BSc-IT Student
-- GitHub: [@ramsingh](https://github.com/ramsingh)
-- LinkedIn: [Ram Singh](https://linkedin.com/in/ramsingh)
+- GitHub: [@ramsingh](https://github.com/Ramsingh4656)
+- LinkedIn: [Ram Singh](https://linkedin.com/in/ram-singh4656)
 
 ---
 
 Made with ❤️ using HTML, CSS & JavaScript
+
