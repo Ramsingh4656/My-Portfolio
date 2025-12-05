@@ -38,7 +38,7 @@ const projectsData = {
         {
             id: 1,
             title: "Modern Calculator",
-            description: "A sleek and responsive modern calculator built with clean UI and smooth interactions. It performs basic arithmetic operations effortlessly and is optimized for both desktop and mobile devices.",
+            description: "A sleek and responsive modern calculator with a clean, minimal UI.",
             tech: ["Html", "JavaScript", "CSS"],
             github: "https://github.com/Ramsingh4656/Modern-Calculator",
             link:"https://ramsingh4656.github.io/Modern-Calculator/",
@@ -310,6 +310,7 @@ document.querySelectorAll('section').forEach(section => {
 // Hero section should be visible immediately
 document.querySelector('.hero').style.opacity = '1';
 document.querySelector('.hero').style.transform = 'translateY(0)';
+
 
 
 
