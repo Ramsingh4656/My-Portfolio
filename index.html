@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ram Singh - FY BSc-IT Student Portfolio. Web Developer, Programmer, and Tech Enthusiast.">
+    <meta name="keywords" content="Ram Singh, Portfolio, Web Developer, IT Student, BSc-IT, Programming">
+    <meta name="author" content="Ram Singh">
+    <title>Ram Singh - IT Student Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">Ram Singh</div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <button id="theme-toggle" class="theme-btn">🌙</button>
+                </div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Ram Singh</span></h1>
+            <p class="hero-subtitle" id="typing-text"></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="scroll-indicator">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="title-underline"></div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder">RS</div>
+                    <div class="decoration-circle circle1"></div>
+                    <div class="decoration-circle circle2"></div>
+                </div>
+                <div class="about-text">
+                    <h3>FY BSc-IT Student</h3>
+                    <p>I'm a passionate first-year BSc-IT student with a strong interest in web development, 
+                    programming, and emerging technologies. I love building projects that solve real-world 
+                    problems and constantly learning new skills to stay ahead in the tech industry.</p>
+                    <p>My journey in technology started with curiosity and has evolved into a commitment to 
+                    creating innovative solutions. I'm proficient in multiple programming languages and 
+                    always eager to take on new challenges.</p>
+                    <div class="features">
+                        <div class="feature-card">
+                            <div class="feature-icon">💻</div>
+                            <h4>Clean Code</h4>
+                            <p>Writing maintainable and efficient code</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h4>Responsive Design</h4>
+                            <p>Mobile-first approach to development</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🚀</div>
+                            <h4>Fast Learner</h4>
+                            <p>Quick to adapt to new technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            <div class="title-underline"></div>
+            <div class="skills-grid" id="skills-grid"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+            <div class="title-underline"></div>
+            <div class="projects-grid" id="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="title-underline"></div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ramsingh" target="_blank" class="social-card">
+                            <div class="social-icon">📦</div>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/ramsingh" target="_blank" class="social-card">
+                            <div class="social-icon">💼</div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:ram.singh@example.com" class="social-card">
+                            <div class="social-icon">✉️</div>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message ✉️</button>
+                    </form>
+                    <div id="form-status" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Ram Singh. All rights reserved.</p>
+            <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
