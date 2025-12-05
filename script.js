@@ -37,12 +37,12 @@ const projectsData = {
     projects: [
         {
             id: 1,
-            title: "E-Commerce Platform",
+            title: "Modern Calculator",
             description: "A full-stack e-commerce website with shopping cart, payment integration, and admin dashboard.",
-            tech: ["React", "Node.js", "MongoDB", "Stripe"],
-            github: "https://github.com/Ramsingh4656/birthday",
-            link:"https://ramsingh4656.github.io/birthday/",
-            image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=250&fit=crop",
+            tech: ["Html", "JavaScript", "CSS"],
+            github: "https://github.com/Ramsingh4656/Modern-Calculator",
+            link:"https://ramsingh4656.github.io/Modern-Calculator/",
+            image: "https://i.ibb.co/Kx7dWqpz/Screenshot-2025-12-06-033055.jpg",
             color: "linear-gradient(135deg, #3b82f6, #06b6d4)"
         },
         {
@@ -310,5 +310,6 @@ document.querySelectorAll('section').forEach(section => {
 // Hero section should be visible immediately
 document.querySelector('.hero').style.opacity = '1';
 document.querySelector('.hero').style.transform = 'translateY(0)';
+
 
 
