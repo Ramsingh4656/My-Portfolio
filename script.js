@@ -40,7 +40,8 @@ const projectsData = {
             title: "E-Commerce Platform",
             description: "A full-stack e-commerce website with shopping cart, payment integration, and admin dashboard.",
             tech: ["React", "Node.js", "MongoDB", "Stripe"],
-            github: "https://github.com/Ramsingh4656",
+            github: "https://github.com/Ramsingh4656/birthday",
+            link:"https://ramsingh4656.github.io/birthday/",
             image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=250&fit=crop",
             color: "linear-gradient(135deg, #3b82f6, #06b6d4)"
         },
@@ -218,7 +219,7 @@ function renderProjects() {
                     <a href="${project.github}" target="_blank">
                         <span>📦</span> Code
                     </a>
-                    <a href="${project.github}" target="_blank">
+                    <a href="${project.link}" target="_blank">
                         <span>🔗</span> Demo
                     </a>
                 </div>
@@ -309,4 +310,5 @@ document.querySelectorAll('section').forEach(section => {
 // Hero section should be visible immediately
 document.querySelector('.hero').style.opacity = '1';
 document.querySelector('.hero').style.transform = 'translateY(0)';
+
 
