@@ -44,51 +44,6 @@ const projectsData = {
             link:"https://ramsingh4656.github.io/Modern-Calculator/",
             image: "https://i.ibb.co/Kx7dWqpz/Screenshot-2025-12-06-033055.jpg",
             color: "linear-gradient(135deg, #3b82f6, #06b6d4)"
-        },
-        {
-            id: 2,
-            title: "Task Management App",
-            description: "A productivity app with drag-and-drop functionality, real-time updates, and team collaboration features.",
-            tech: ["React", "Firebase", "Tailwind CSS"],
-            github: "https://github.com/Ramsingh4656",
-            image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=250&fit=crop",
-            color: "linear-gradient(135deg, #8b5cf6, #ec4899)"
-        },
-        {
-            id: 3,
-            title: "Weather Dashboard",
-            description: "Real-time weather application with forecasts, interactive maps, and location-based alerts.",
-            tech: ["JavaScript", "OpenWeather API", "Chart.js"],
-            github: "https://github.com/Ramsingh4656",
-            image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-            color: "linear-gradient(135deg, #f97316, #ef4444)"
-        },
-        {
-            id: 4,
-            title: "Blog Platform",
-            description: "A modern blogging platform with markdown support, comments, and user authentication.",
-            tech: ["Next.js", "PostgreSQL", "Prisma"],
-            github: "https://github.com/Ramsingh4656",
-            image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&h=250&fit=crop",
-            color: "linear-gradient(135deg, #10b981, #14b8a6)"
-        },
-        {
-            id: 5,
-            title: "Portfolio Generator",
-            description: "An automated tool to generate beautiful portfolio websites from JSON configuration files.",
-            tech: ["Python", "Flask", "Jinja2", "Bootstrap"],
-            github: "https://github.com/Ramsingh4656",
-            image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop",
-            color: "linear-gradient(135deg, #6366f1, #8b5cf6)"
-        },
-        {
-            id: 6,
-            title: "Chat Application",
-            description: "Real-time chat app with private messaging, group chats, and file sharing capabilities.",
-            tech: ["React", "Socket.io", "Express", "MongoDB"],
-            github: "https://github.com/Ramsingh4656",
-            image: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=400&h=250&fit=crop",
-            color: "linear-gradient(135deg, #ec4899, #f43f5e)"
         }
     ]
 };
@@ -310,6 +265,7 @@ document.querySelectorAll('section').forEach(section => {
 // Hero section should be visible immediately
 document.querySelector('.hero').style.opacity = '1';
 document.querySelector('.hero').style.transform = 'translateY(0)';
+
 
 
 
