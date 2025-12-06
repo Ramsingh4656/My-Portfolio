@@ -38,12 +38,12 @@ const projectsData = {
         {
             id: 1,
             title: "Modern Calculator",
-            description: "A sleek and responsive modern calculator with a clean, minimal UI.",
-            tech: ["Html", "JavaScript", "CSS"],
+            description: "A fully functional calculator with keyboard support, clean UI, and all basic operations.",
+            tech: ["HTML", "CSS", "JavaScript"],
             github: "https://github.com/Ramsingh4656/Modern-Calculator",
-            link:"https://ramsingh4656.github.io/Modern-Calculator/",
-            image: "https://i.ibb.co/Kx7dWqpz/Screenshot-2025-12-06-033055.jpg",
-            color: "linear-gradient(135deg, #3b82f6, #06b6d4)"
+            demo: "https://ramsingh4656.github.io/Modern-Calculator/",
+            image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=400&h=250&fit=crop",
+            color: "linear-gradient(135deg, #667eea, #764ba2)"
         }
     ]
 };
@@ -265,6 +265,7 @@ document.querySelectorAll('section').forEach(section => {
 // Hero section should be visible immediately
 document.querySelector('.hero').style.opacity = '1';
 document.querySelector('.hero').style.transform = 'translateY(0)';
+
 
 
 
